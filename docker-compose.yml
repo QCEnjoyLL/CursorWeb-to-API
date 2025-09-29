@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  cursorweb2api:
+    build: .
+    ports:
+      - "8000:8000"
+
+    environment:
+      - DEBUG=false
